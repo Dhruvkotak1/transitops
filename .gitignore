@@ -1,0 +1,42 @@
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+ENV/
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+
+# Database & Flask Instance Folder
+# Prevents git merge conflicts on local database changes
+instance/
+*.db
+*.sqlite
+*.sqlite3
+
+# Frontend & Build Tools (if using Node for Tailwind)
+node_modules/
+.npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDEs & Text Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
