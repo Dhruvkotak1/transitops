@@ -1,4 +1,4 @@
-# Core Web Framework & Database
+g# Core Web Framework & Database
 Flask>=3.0.0
 Flask-SQLAlchemy>=3.1.0
 Flask-Migrate>=4.0.0
